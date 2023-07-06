@@ -20,7 +20,7 @@ main {
 }
 
 div#celular {
-    background: #0000004c url('../imagens/frame-iphone.png') center center/ 311px 627px no-repeat fixed;
+    background: #00000000 url('../imagens/frame-iphone.png') center center/ 311px 627px no-repeat fixed;
 
     position: absolute;
     transform: translate(-50%, -50%);
@@ -32,11 +32,12 @@ div#celular {
 }
 
 iframe {
-    background-color: #898989;
     height: 471px;
     width: 270px;
 
     position: absolute;
     top: 80px;
     left: 21px;
+
+    overflow: hidden;
 }
