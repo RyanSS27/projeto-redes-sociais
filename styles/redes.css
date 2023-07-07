@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    max-width: 270px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div#botao {
+    background-color: #900000;
+    color: #fff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+    padding: 20px 0px 20px 0px;
+}
+
+div#botao:hover {
+    background-color: #d60000;
+}

@@ -34,10 +34,21 @@ div#celular {
 iframe {
     height: 471px;
     width: 270px;
+    border-radius: 4px;
 
     position: absolute;
     top: 80px;
     left: 21px;
 
     overflow: hidden;
+}
+
+ul {
+    text-align: right;
+}
+
+img {
+    max-width: 60px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 100px;
 }
