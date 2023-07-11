@@ -43,12 +43,25 @@ iframe {
     overflow: hidden;
 }
 
-ul {
+li {
     text-align: right;
 }
 
 img {
     max-width: 50px;
     margin: 10px 10px 0px 10px;
-    border-radius: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    opacity: 80%;
+}
+
+img:hover {
+    transform: translate(-3px, -3px);
+    opacity: 100%;
+    transition: transform 0.2s, border 5s;
+}
+
+img:active {
+    transform: scale(95%);
+    transition: transform 0.2s;
 }
